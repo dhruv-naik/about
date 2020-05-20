@@ -309,6 +309,25 @@ nav ul li a {
   height: 60vh;
   border-radius: 25px;
 }
+.teamback {
+  background-image: url("./teamback.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.photo {
+  padding-top: 20vh;
+  background-image: url("https://jayd1903.github.io/mm-github-pages-starter/assets/images/seattle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 30vh;
+}
+.backgroundtop {
+  padding-bottom: 10vh;
+}
+.aboutus {
+  color: aliceblue;
+  font-size: xx-large;
+}
 @media screen and (max-width: 864px) {
   #features ul {
     flex-direction: column;
@@ -345,6 +364,10 @@ nav ul li a {
   #hero-image {
     height: 30vh;
   }
+  .photo {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
 }
 
 /* footer */
@@ -352,13 +375,14 @@ footer {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background-color: #f8fafa;
+  background-color: lightblue;
   width: 100%;
 
   justify-content: space-around;
 }
 .footer-info {
   padding-top: 10px;
+  background-color: lightblue;
   justify-content: center;
   align-items: center;
 }
